@@ -1,0 +1,41 @@
+{
+    "name": "devloops/phone-number",
+    "description": "The Missing Laravel Nova Phone Number Field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "field",
+        "phone",
+        "number",
+        "vue-tel-input"
+    ],
+    "authors": [
+        {
+            "name": "Abdullah Al-Faqeir",
+            "email": "abdullah@devloops.net",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/nova": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devloops\\PhoneNumber\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devloops\\PhoneNumber\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
