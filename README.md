@@ -1,8 +1,8 @@
 ![Laravel Nova Phone Number Field](https://i.ibb.co/c8Mb2bh/Nova-Phone-Number.jpg)
 
-[![Latest Version on Packagist](https://poser.pugx.org/devloopsnet/nova-phone-number-field/v/stable?format=flat-square&color=#0E7FC0)](https://packagist.org/packages/devloopsnet/nova-phone-number-field)
-[![License](https://poser.pugx.org/devloopsnet/nova-phone-number-field/license?format=flat-square)](https://packagist.org/packages/devloopsnet/nova-phone-number-field)
-[![Total Downloads](https://poser.pugx.org/devloopsnet/nova-phone-number-field/downloads?format=flat-square)](https://packagist.org/packages/devloopsnet/nova-phone-number-field)
+[![Latest Version on Packagist](https://poser.pugx.org/devloops/phone-number/v/stable?format=flat-square&color=#0E7FC0)](https://packagist.org/packages/devloops/phone-number)
+[![License](https://poser.pugx.org/devloops/phone-number/license?format=flat-square)](https://packagist.org/packages/devloops/phone-number)
+[![Total Downloads](https://poser.pugx.org/devloops/phone-number/downloads?format=flat-square)](https://packagist.org/packages/devloops/phone-number)
 
 The Missing Laravel Nova Phone Number Field.
 
