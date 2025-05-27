@@ -52,10 +52,10 @@
 </template>
 
 <script>
-import {FormField, HandlesValidationErrors} from 'laravel-nova'
+import {FormField, DependentFormField, HandlesValidationErrors} from 'laravel-nova'
 
 export default {
-    mixins: [FormField, HandlesValidationErrors],
+    mixins: [FormField, DependentFormField, HandlesValidationErrors],
 
     props: ['resourceName', 'resourceId', 'field'],
 
@@ -69,6 +69,16 @@ export default {
         this.$nextTick(() => {
             this.telInputKey++;
         });
+    },
+
+    watch: {
+        'value': function (newValue, oldValue) {
+            this.handleChange({
+                target: {
+                    value: newValue
+                }
+            });
+        }
     },
 
     methods: {
