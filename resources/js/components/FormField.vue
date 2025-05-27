@@ -11,6 +11,7 @@
                 ref="telInputField"
                 :id="field.attribute"
                 :autoFormat="propValue('autoFormat', true)"
+                :mode="propValue('mode', 'auto')"
                 :customValidate="propValue('customValidate', false)"
                 :defaultCountry="propValue('defaultCountry', '')"
                 :disabled="propValue('disabled', false)"
